@@ -33,7 +33,7 @@ function Home() {
           </p>
           <div>
             <a
-              href="/ResumeDev.pdf"
+              href="./ResumeDev.pdf"
               download="Resume"
               target="_blank"
               rel="noreferrer"
