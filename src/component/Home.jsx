@@ -2,7 +2,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 import Wall from '../assets/Wall.jpg'
 
 const downloadPdf = () => {
-  const Resume = "D:Projectportfolio websidepublicResumeDev.pdf";
+  const Resume = "./ResumeDev.pdf";
 
   const a = document.createElement("a");
   a.href = Resume;
