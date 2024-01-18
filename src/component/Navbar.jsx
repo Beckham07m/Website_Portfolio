@@ -37,7 +37,7 @@ function Navbar() {
         {navData().map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer text-2xl text-sky-400 hover:scale-105 duration-200 "
+            className="px-4 cursor-pointer text-2xl text-white hover:scale-105 duration-200"
           >
             {link}
           </li>

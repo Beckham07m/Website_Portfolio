@@ -1,8 +1,8 @@
 import { FaArrowCircleRight } from "react-icons/fa";
-import Wall from '../assets/Wall.jpg'
+import Wall from '../assets/pictures/Wall.jpg'
 
 const downloadPdf = () => {
-  const Resume = "D:Projectportfolio websidepublicResumeDev.pdf";
+  const Resume = "./ResumeDev.pdf";
 
   const a = document.createElement("a");
   a.href = Resume;
@@ -33,7 +33,7 @@ function Home() {
           </p>
           <div>
             <a
-              href="/ResumeDev.pdf"
+              href="./ResumeDev.pdf"
               download="Resume"
               target="_blank"
               rel="noreferrer"
@@ -50,7 +50,6 @@ function Home() {
             </a>
           </div>
         </div>
-
         <div>
           <img
             src={Wall}
