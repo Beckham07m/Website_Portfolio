@@ -1,5 +1,5 @@
 import { FaArrowCircleRight } from "react-icons/fa";
-import Wall from '../assets/Wall.jpg'
+import Wall from '../assets/pictures/Wall.jpg'
 
 const downloadPdf = () => {
   const Resume = "./ResumeDev.pdf";
@@ -50,7 +50,6 @@ function Home() {
             </a>
           </div>
         </div>
-
         <div>
           <img
             src={Wall}
