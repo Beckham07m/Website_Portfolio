@@ -1,37 +1,29 @@
-import MyProject from "../assets/pictures/MyProject.jpg";
+import crud from "../assets/pictures/crud.png";
+import WebPort from "../assets/pictures/WebPort.png";
 
 function Project() {
   const MyProj = [
     {
       id: 1,
-      src: MyProject,
+      src: crud,
     },
     {
       id: 2,
-      src: MyProject,
-    },
-    {
-      id: 3,
-      src: MyProject,
+      src: WebPort,
     },
   ];
 
   return (
     <div
       name="Project"
-      className="bg-black w-full text-white md:h-screen"
+      className="w-full bg-gradient-to-b from-gray-800 to-black text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl sm:text-7xl font-bold text-center">Project</p>
-          <p className="py-6">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
-            voluptatem velit distinctio necessitatibus laudantium libero quas
-            possimus sequi quisquam nostrum ut facilis magni magnam tempora
-            doloremque iure ipsam repellat unde, nemo repudiandae, rerum et
-            explicabo eos? Nisi ut nobis quaerat, earum eaque omnis suscipit
-            eius est in doloremque maiores libero?
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            Project
           </p>
+          <p className="text-xl py-6">This is some of the work I did.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
@@ -42,11 +34,12 @@ function Project() {
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-              {/* <div className="flex items-center justify-center">
-                <button className="w-1/2 px-4 py-4 m-4 duration-200 hover:scale-105">
-                  click me
+              <div className="flex item-center justify-center w-full">
+                <button className="m-2 px-6 py-3 rounded-lg duration-200 hover:scale-105 hover:bg-cyan-600 transition ease-in-out">
+                  Code
                 </button>
-              </div> */}
+                
+              </div>
             </div>
           ))}
         </div>
