@@ -6,10 +6,12 @@ function Project() {
     {
       id: 1,
       src: crud,
+      dis: "this is crud",
     },
     {
       id: 2,
       src: WebPort,
+      dis: "this is port",
     },
   ];
 
@@ -26,19 +28,19 @@ function Project() {
           <p className="text-xl py-6">This is some of the work I did.</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {MyProj.map(({ id, src }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
+          {MyProj.map(({ id, src, dis }) => (
+            <div
+              key={id}
+              className="group shadow-md shadow-gray-600 rounded-lg hover:scale-105"
+            >
+              <img src={src} alt="" className="rounded-md duration-200" />
               <div className="flex item-center justify-center w-full">
-                <button className="m-2 px-6 py-3 rounded-lg duration-200 hover:scale-105 hover:bg-cyan-600 transition ease-in-out">
-                  Code
-                </button>
-                
+                <a href="">
+                  <button className="w-full px-6 py-3 duration-200 rounded-md">
+                    {dis}
+                  </button>
+                </a>
               </div>
             </div>
           ))}
