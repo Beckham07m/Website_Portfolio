@@ -12,20 +12,22 @@ function About() {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-          hic at aut culpa quam laboriosam eligendi aliquid. Veniam officia, vel
-          consequatur quibusdam sunt nulla doloribus, ad delectus accusantium,
-          voluptas non omnis quis provident quasi voluptatem? Maiores obcaecati
-          unde laboriosam sapiente.
+        <p className="text-xl indent-6 mt-20">
+          Hello, my name is Mr. Atsadayut Khuanhat, nicknamed Beck. I am 24
+          years old and graduated from Rajamangala University of Technology
+          Thanyaburi with a degree in Economics from the Faculty of Business
+          Administration. I have a keen interest in the programming profession,
+          which is in high demand in the market, and I am passionate about
+          developing my knowledge and skills in programming.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-          natus et repellendus voluptate delectus aspernatur dolorem cumque qui
-          perspiciatis laborum?
+          I have taken online courses related to programming and have applied
+          the knowledge gained from these courses to develop 2 to 3 projects. My
+          goal is to further enhance my programming skills in the future and
+          generate income for myself through this expertise.
         </p>
       </div>
     </div>
