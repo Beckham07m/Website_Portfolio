@@ -1,18 +1,6 @@
 import { FaArrowCircleRight } from "react-icons/fa";
 import Wall from '../assets/pictures/Wall.jpg'
-
-const downloadPdf = () => {
-  const Resume = "./ResumeDev.pdf";
-
-  const a = document.createElement("a");
-  a.href = Resume;
-  a.download = "ResumeDev";
-
-  document.body.appendChild(a);
-  a.click();
-
-  document.body.removeChild(a);
-};
+import ResumeFrontEnd from '../assets/pdf/ResumeFrontEnd.pdf'
 
 function Home() {
   return (
@@ -33,14 +21,8 @@ function Home() {
           </p>
 
           <div>
-            <a
-              href="./ResumeDev.pdf"
-              download="Resume"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={ResumeFrontEnd} download="ResumeFrontEnd.pdf">
               <button
-                onClick={downloadPdf}
                 className="group rounded-full btn btn-info btn-outline sm:btn-sm md:btn-md lg:btn-lg"
               >
                 Resume

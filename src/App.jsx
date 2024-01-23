@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="">
+      <div>
         <Home />
         <About />
         <Skill />

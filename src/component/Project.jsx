@@ -1,17 +1,22 @@
 import crud from "../assets/pictures/crud.png";
 import WebPort from "../assets/pictures/WebPort.png";
+import Travel from "../assets/pictures/Travel.png";
 
 function Project() {
   const MyProj = [
     {
       id: 1,
       src: crud,
-      dis: "this is crud",
+      url: "https://github.com/Beckham07m/React-crud.git",
     },
     {
       id: 2,
       src: WebPort,
-      dis: "this is port",
+      url: "https://github.com/Beckham07m/Website_Portfolio.git",
+    },
+    {
+      id: 3,
+      src: Travel,
     },
   ];
 
@@ -29,19 +34,17 @@ function Project() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
-          {MyProj.map(({ id, src, dis }) => (
+          {MyProj.map(({ id, src, url }) => (
             <div
               key={id}
               className="group shadow-md shadow-gray-600 rounded-lg hover:scale-105"
             >
-              <img src={src} alt="" className="rounded-md duration-200" />
-              <div className="flex item-center justify-center w-full">
-                <a href="">
-                  <button className="w-full px-6 py-3 duration-200 rounded-md">
-                    {dis}
-                  </button>
-                </a>
-              </div>
+              <a rel="noopener noreferrer" href={url} target="_blank">
+                <img src={src} alt="" className="rounded-md duration-200" />
+                <div className="flex item-center justify-center w-full">
+                  <p className="py-4">Link to Github</p>
+                </div>
+              </a>
             </div>
           ))}
         </div>

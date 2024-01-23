@@ -1,4 +1,3 @@
-// import Leprechaun from '../assets/pictures/Leprechaun.png'
 
 function About() {
   return (
