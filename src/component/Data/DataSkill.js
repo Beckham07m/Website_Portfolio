@@ -5,6 +5,9 @@ import bootstrap from "../../assets/pictures/bootstrap.png";
 import mui from "../../assets/pictures/mui.png";
 import react from "../../assets/pictures/react.png";
 import tailwind from "../../assets/pictures/tailwind.png";
+import crud from "../../assets/pictures/crud.png";
+import WebPort from "../../assets/pictures/WebPort.png";
+import Travel from "../../assets/pictures/Travel.png";
 
   export const techs = [
     {
@@ -50,3 +53,40 @@ import tailwind from "../../assets/pictures/tailwind.png";
       style: "shadow-sky-400",
     },
   ];
+
+   export const navData = [
+     {
+       id: 1,
+       link: "Home",
+     },
+     {
+       id: 2,
+       link: "About",
+     },
+     {
+       id: 3,
+       link: "Skill",
+     },
+     {
+       id: 4,
+       link: "Project",
+     },
+   ];
+
+   export const MyProj = [
+     {
+       id: 1,
+       src: crud,
+       url: "https://github.com/Beckham07m/React-crud.git",
+     },
+     {
+       id: 2,
+       src: WebPort,
+       url: "https://github.com/Beckham07m/Website_Portfolio.git",
+     },
+     {
+       id: 3,
+       src: Travel,
+       url: "https://github.com/Beckham07m/WorkShop-Futureskill",
+     },
+   ];

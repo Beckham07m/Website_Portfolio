@@ -1,25 +1,7 @@
-import crud from "../assets/pictures/crud.png";
-import WebPort from "../assets/pictures/WebPort.png";
-import Travel from "../assets/pictures/Travel.png";
+import { MyProj } from "./Data/DataSkill";
 
 function Project() {
-  const MyProj = [
-    {
-      id: 1,
-      src: crud,
-      url: "https://github.com/Beckham07m/React-crud.git",
-    },
-    {
-      id: 2,
-      src: WebPort,
-      url: "https://github.com/Beckham07m/Website_Portfolio.git",
-    },
-    {
-      id: 3,
-      src: Travel,
-    },
-  ];
-
+  
   return (
     <div
       name="Project"

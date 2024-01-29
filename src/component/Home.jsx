@@ -1,6 +1,6 @@
 import { FaArrowCircleRight } from "react-icons/fa";
-import Wall from '../assets/pictures/Wall.jpg'
-import ResumeFrontEnd from '../assets/pdf/ResumeFrontEnd.pdf'
+import Wall from "../assets/pictures/Wall.jpg"
+import ResumeFrontEnd from "../assets/pdf/ResumeFrontEnd.pdf"
 
 function Home() {
   return (

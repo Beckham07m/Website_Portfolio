@@ -1,4 +1,5 @@
 import About from "./component/About";
+import Footer from "./component/Footer";
 import Home from "./component/Home";
 import Navbar from "./component/Navbar";
 import Project from "./component/Project";
@@ -8,12 +9,11 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div>
         <Home />
         <About />
         <Skill />
         <Project />
-      </div>
+        <Footer />
     </div>
   );
 }

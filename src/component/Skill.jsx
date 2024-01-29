@@ -1,7 +1,6 @@
 import { techs } from "./Data/DataSkill";
 
-const Skill = () => {
-  console.log(techs);
+function Skill() {
 
   return (
     <div
@@ -32,6 +31,6 @@ const Skill = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Skill;
