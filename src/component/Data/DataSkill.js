@@ -6,7 +6,7 @@ import mui from "../../assets/pictures/mui.png";
 import react from "../../assets/pictures/react.png";
 import tailwind from "../../assets/pictures/tailwind.png";
 import crud from "../../assets/pictures/crud.png";
-import WebPort from "../../assets/pictures/WebPort.png";
+import Port from "../../assets/pictures/Port.png";
 import Travel from "../../assets/pictures/Travel.png";
 
   export const techs = [
@@ -81,7 +81,7 @@ import Travel from "../../assets/pictures/Travel.png";
      },
      {
        id: 2,
-       src: WebPort,
+       src: Port,
        url: "https://github.com/Beckham07m/Website_Portfolio.git",
      },
      {

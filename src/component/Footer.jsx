@@ -1,12 +1,9 @@
-import { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMail} from "react-icons/fi";
 import { FaGithub, FaFacebook } from "react-icons/fa";
 import { navData } from "./Data/DataSkill";
 
 function Footer() {
-
-  const [nav, setNav] = useState(false);
 
   const openEmailWindow = () => {
     window.open("mailto:as.atsadayut@gmail.com", "_blank");
@@ -21,8 +18,7 @@ function Footer() {
               key={id}
               className="px-4 cursor-pointer pt-3 text-xl hover:link duration-200 list-none"
             >
-              <Link
-                onClick={() => setNav(!nav)}
+              <Link             
                 to={link}
                 smooth
                 duration={500}
