@@ -6,13 +6,17 @@ function About() {
       className="h-screen w-full bg-gradient-to-b from-gray-800 to-black text-white flex flex-col"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-8" data-aos="fade-up" data-aos-duration="1500">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
 
-        <p className="text-xl indent-6 mt-20">
+        <p
+          className="text-xl indent-6 mt-20"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           Hello, my name is Mr. Atsadayut Khuanhat, nicknamed Beck. I am 24
           years old and graduated from Rajamangala University of Technology
           Thanyaburi with a degree in Economics from the Faculty of Business
@@ -23,7 +27,7 @@ function About() {
 
         <br />
 
-        <p className="text-xl">
+        <p className="text-xl" data-aos="fade-up" data-aos-duration="1500">
           I have taken online courses related to programming and have applied
           the knowledge gained from these courses to develop 2 to 3 projects. My
           goal is to further enhance my programming skills in the future and

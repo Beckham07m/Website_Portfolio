@@ -9,7 +9,11 @@ function Home() {
       className="h-screen w-full bg-gradient-to-b from-black to-gray-800 via-black"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full px-5">
+        <div
+          className="flex flex-col justify-center h-full px-5"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <h1 className="text-zinc-50 text-3xl sm:text-7xl font-bold">
             I&apos;m a Front-End Developer
           </h1>
@@ -31,7 +35,7 @@ function Home() {
             </a>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-duration="1500">
           <img
             src={Wall}
             alt="Wallpaper"

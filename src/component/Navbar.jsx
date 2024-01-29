@@ -8,7 +8,7 @@ function Navbar() {
   const [nav, setNav] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center w-full h-20 text-white px-4 bg-black fixed">
+    <nav className="flex justify-between items-center w-full h-20 text-white px-4 bg-black ">
       <div>
         <h1 className="text-4xl font-bold font-Marcellus ml-2">Portfolio</h1>
       </div>
