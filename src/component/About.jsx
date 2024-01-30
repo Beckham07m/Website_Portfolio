@@ -1,10 +1,6 @@
-
 function About() {
   return (
-    <div
-      name="About"
-      className="h-screen w-full bg-gradient-to-b from-gray-800 to-black text-white flex flex-col"
-    >
+    <div name="About" className="h-screen w-full text-white flex flex-col">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8" data-aos="fade-up" data-aos-duration="1500">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
@@ -13,7 +9,7 @@ function About() {
         </div>
 
         <p
-          className="text-xl indent-6 mt-20"
+          className="text-xl indent-6 mt-10"
           data-aos="fade-up"
           data-aos-duration="1500"
         >

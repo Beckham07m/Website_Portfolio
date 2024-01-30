@@ -1,14 +1,13 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import { navData } from "./Data/DataSkill"
+import { navData } from "./Data/DataSkill";
 
 function Navbar() {
-  
   const [nav, setNav] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center w-full h-20 text-white px-4 bg-black ">
+    <nav className="flex justify-between items-center w-full h-20 text-white px-4">
       <div>
         <h1 className="text-4xl font-bold font-Marcellus ml-2">Portfolio</h1>
       </div>
