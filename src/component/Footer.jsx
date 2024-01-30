@@ -10,7 +10,7 @@ function Footer() {
   };
 
   return (
-    <div>
+    <div className="bg-black">
       <footer className="footer footer-center justify-around p-10 text-base-content rounded">
         <nav className="grid grid-flow-col text-xl gap-4 text-white">
           {navData.map(({ id, link }) => (

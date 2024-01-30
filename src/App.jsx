@@ -9,14 +9,14 @@ import cyber from "./assets/pictures/cyber.jpg"
 function App() {
   return (
     <div>
-      <Navbar />
       <div
-        // style={{
-        //   backgroundImage: `url(${cyber})`,
-        //   backgroundSize: "cover",
-        //   backgroundPosition: "center",
-        // }}
+        style={{
+          backgroundImage: `url(${cyber})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
+        <Navbar />
         <Home />
         <About />
         <Skill />
