@@ -8,7 +8,6 @@ import cyber from "./assets/pictures/cyber.jpg"
 
 function App() {
   return (
-    <div>
       <div
         style={{
           backgroundImage: `url(${cyber})`,
@@ -23,7 +22,6 @@ function App() {
         <Project />
         <Footer />
       </div>
-    </div>
   );
 }
 
